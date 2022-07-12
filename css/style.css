@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+/* Header*/
+header {
+    height: 3.1363rem;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 2.2727rem;
+}
+
+
+main {
+    position: relative;
+    /*top: 3.1818rem;*/
+}
+
+/* Mission */
+#mission {
+    width: 54.5454rem;
+    height: 31.8181rem;
+    margin: 0 auto;
+    background-image: url('./images/img-mission-background.jpg');
+    display: flex;
+    align-items: center;
+}
+
+#mission h2{
+    font-size: 1.4545rem;
+}
+
+.mission-items {
+    width: 54.5454rem;
+    height: 4.5454rem;
+    text-align: center;
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Tea of the month */
+#featured-tea {
+    margin: 0 auto;
+    width: 45.4545rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 0.4545rem;
+}
+
+#featured-tea h2{
+    font-size: 1.4545rem;
+}
+
+.container1 {
+    display: flex;
+    height: 4.5454rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+
+figure img {
+    height: 9.0909rem;
+    width: 13.6363rem;
+    padding: 0.4545rem;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/*Location*/
+#locations {
+    width: 54.5454rem;
+    height: 22.7272rem;
+    margin-top: 0.4545rem;
+    margin: 0 auto;
+    background-image: url('./images/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-locations h2 {
+    padding-bottom: 0.6818rem;
+    text-align: center;
+    font-size: 1.4545rem;
+}
+
+.container-adresses {
+    display: flex;
+}
+
+#adresses {
+    background-color: black;
+    opacity: 1;
+    width: 13.6363rem;
+    height: 13.6363rem;
+    margin: 1.8181rem 0.6818rem;
+    box-sizing: content-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Bottom */
+#contact {
+    height: 9.0909rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact h2 {
+    font-size: 1.4545rem;
+}
+
+footer h5{
+    padding: 0.9090rem;
+    text-align: left;
+    font-size: 0.70rem;
+}
